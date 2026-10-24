@@ -1,0 +1,28 @@
+Categories:
+  - Connectivity
+  - Phone & SMS
+License: GPL-3.0-or-later
+AuthorName: Soul Redemption Services LLC
+AuthorEmail: saulredemptionservicesllc@gmail.com
+WebSite: https://ajay-develops.github.io/sms-relay/
+SourceCode: https://github.com/ajay-develops/sms-relay
+IssueTracker: https://github.com/ajay-develops/sms-relay/issues
+Changelog: https://github.com/ajay-develops/sms-relay/releases
+
+AutoName: SMS Relay
+
+RepoType: git
+Repo: https://github.com/ajay-develops/sms-relay.git
+
+Builds:
+  - versionName: 1.0.0
+    versionCode: 1
+    commit: v1.0.0
+    subdir: app
+    gradle:
+      - yes
+
+AutoUpdateMode: Version
+UpdateCheckMode: Tags
+CurrentVersion: 1.0.0
+CurrentVersionCode: 1
