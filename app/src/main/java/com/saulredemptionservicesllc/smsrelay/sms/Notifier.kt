@@ -1,4 +1,4 @@
-package com.soulredemption.smsrelay.sms
+package com.saulredemptionservicesllc.smsrelay.sms
 
 import android.Manifest
 import android.app.NotificationChannel
@@ -8,9 +8,9 @@ import android.content.Context
 import android.content.Intent
 import android.content.pm.PackageManager
 import android.app.Notification
-import com.soulredemption.smsrelay.R
-import com.soulredemption.smsrelay.data.LogEntry
-import com.soulredemption.smsrelay.ui.MainActivity
+import com.saulredemptionservicesllc.smsrelay.R
+import com.saulredemptionservicesllc.smsrelay.data.LogEntry
+import com.saulredemptionservicesllc.smsrelay.ui.MainActivity
 
 object Notifier {
     private const val CHANNEL = "failures"

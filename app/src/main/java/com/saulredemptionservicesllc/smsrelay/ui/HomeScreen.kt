@@ -1,4 +1,4 @@
-package com.soulredemption.smsrelay.ui
+package com.saulredemptionservicesllc.smsrelay.ui
 
 import android.content.Intent
 import android.os.PowerManager
@@ -49,11 +49,11 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
-import com.soulredemption.smsrelay.data.LogEntry
-import com.soulredemption.smsrelay.data.Rule
-import com.soulredemption.smsrelay.data.Status
-import com.soulredemption.smsrelay.data.Store
-import com.soulredemption.smsrelay.sms.Sims
+import com.saulredemptionservicesllc.smsrelay.data.LogEntry
+import com.saulredemptionservicesllc.smsrelay.data.Rule
+import com.saulredemptionservicesllc.smsrelay.data.Status
+import com.saulredemptionservicesllc.smsrelay.data.Store
+import com.saulredemptionservicesllc.smsrelay.sms.Sims
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable

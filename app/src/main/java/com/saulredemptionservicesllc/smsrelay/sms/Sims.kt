@@ -1,4 +1,4 @@
-package com.soulredemption.smsrelay.sms
+package com.saulredemptionservicesllc.smsrelay.sms
 
 import android.annotation.SuppressLint
 import android.content.Context

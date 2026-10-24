@@ -1,4 +1,4 @@
-package com.soulredemption.smsrelay.data
+package com.saulredemptionservicesllc.smsrelay.data
 
 /**
  * Pure matching logic (no Android dependencies) so it can be unit tested.

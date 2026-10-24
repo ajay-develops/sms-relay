@@ -18,7 +18,7 @@ Website, privacy policy and terms: <https://ajay-develops.github.io/sms-relay/>
 
 ## Install
 
-- Google Play: `com.soulredemption.smsrelay`
+- Google Play: `com.saulredemptionservicesllc.smsrelay`
 - APK: [GitHub Releases](https://github.com/ajay-develops/sms-relay/releases/latest)
 
 If you install the APK directly and Android says the SMS permission is restricted, open **App info → ⋮ → Allow restricted settings**, then grant it.
@@ -49,7 +49,7 @@ Debug builds accept extras used to capture store screenshots: `--ez demo true --
 ## Project layout
 
 ```
-app/src/main/java/com/soulredemption/smsrelay/
+app/src/main/java/com/saulredemptionservicesllc/smsrelay/
   data/   Rule & log models, JSON store, matching logic (unit tested)
   sms/    SMS receiver, forwarder, send-status receiver, retry worker, SIM helpers
   ui/     Compose screens: setup, rules list, rule editor

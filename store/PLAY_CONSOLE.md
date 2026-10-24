@@ -1,16 +1,16 @@
 # Play Console answer sheet — SMS Relay
 
-Everything needed to fill in Play Console for `com.soulredemption.smsrelay`.
+Everything needed to fill in Play Console for `com.saulredemptionservicesllc.smsrelay`.
 
 ## Files
 
 | Item | File |
 |---|---|
-| App bundle (upload this) | `app/build/outputs/bundle/release/app-release.aab` (versionCode 1, 1.0.0) |
+| App bundle (upload this) | `app/build/outputs/bundle/release/app-release.aab` (versionCode 2, 1.0.1) |
 | App icon 512×512 | `store/play/icon-512.png` |
 | Feature graphic 1024×500 | `store/play/feature-graphic.png` |
 | Phone screenshots (1080×1920) | `store/play/screenshot-1.png` … `screenshot-5.png` |
-| Demo video (SMS permission declaration) | https://github.com/ajay-develops/sms-relay/releases/download/v1.0.0/sms-relay-demo.mp4 |
+| Demo video (SMS permission declaration) | https://github.com/ajay-develops/sms-relay/releases/download/v1.0.1/sms-relay-demo.mp4 |
 
 Upload key: `~/.config/sms-relay/sms-relay-release.jks` (SHA-256 `dfea0d98bb6e0ebd7037a5eae21f1f6b2cba1706142eecc691a8f1b67b4c10c1`). Use Play App Signing.
 
@@ -51,7 +51,7 @@ Upload key: `~/.config/sms-relay/sms-relay-release.jks` (SHA-256 `dfea0d98bb6e0e
 
   > SMS Relay is a single-purpose utility that forwards incoming text messages to another phone number chosen by the user, for example forwarding bank alerts from a work SIM to a personal phone. RECEIVE_SMS is required to detect incoming messages and match them against the user's rules (sender, SIM slot). SEND_SMS is required to send the forwarded copy from the user's own SIM. Forwarding only happens for rules the user creates, to recipients the user selects, and the app shows every forward in an on-device activity log. The app has no INTERNET permission, never reads the SMS inbox, and stores nothing off device. Without these two permissions the app has no functionality.
 
-- **Video:** https://github.com/ajay-develops/sms-relay/releases/download/v1.0.0/sms-relay-demo.mp4 (shows permission prompt, creating a rule, a matching SMS being forwarded and a non-matching SMS ignored)
+- **Video:** https://github.com/ajay-develops/sms-relay/releases/download/v1.0.1/sms-relay-demo.mp4 (shows permission prompt, creating a rule, a matching SMS being forwarded and a non-matching SMS ignored)
 - **Prominent disclosure:** First-run setup screen explains each permission before the system prompt.
 
 `READ_PHONE_STATE` is used only to list SIM slots (SubscriptionManager) and send from a chosen SIM; it is not a restricted permission but is disclosed in the privacy policy.
@@ -59,5 +59,5 @@ Upload key: `~/.config/sms-relay/sms-relay-release.jks` (SHA-256 `dfea0d98bb6e0e
 ## Release
 
 - Track: **Production**, countries: all available.
-- Release name: 1.0.0
-- Release notes: `fastlane/metadata/android/en-US/changelogs/1.txt`
+- Release name: 1.0.1
+- Release notes: `fastlane/metadata/android/en-US/changelogs/2.txt`

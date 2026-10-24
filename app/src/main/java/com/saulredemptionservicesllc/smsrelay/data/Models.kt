@@ -1,4 +1,4 @@
-package com.soulredemption.smsrelay.data
+package com.saulredemptionservicesllc.smsrelay.data
 
 import org.json.JSONArray
 import org.json.JSONObject

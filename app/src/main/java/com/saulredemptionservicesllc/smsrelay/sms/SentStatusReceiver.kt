@@ -1,11 +1,11 @@
-package com.soulredemption.smsrelay.sms
+package com.saulredemptionservicesllc.smsrelay.sms
 
 import android.app.Activity
 import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
 import android.telephony.SmsManager
-import com.soulredemption.smsrelay.data.Store
+import com.saulredemptionservicesllc.smsrelay.data.Store
 
 class SentStatusReceiver : BroadcastReceiver() {
     override fun onReceive(context: Context, intent: Intent) {
@@ -32,7 +32,7 @@ class SentStatusReceiver : BroadcastReceiver() {
     }
 
     companion object {
-        const val ACTION_SENT = "com.soulredemption.smsrelay.SENT"
+        const val ACTION_SENT = "com.saulredemptionservicesllc.smsrelay.SENT"
         const val EXTRA_LOG_ID = "log_id"
         const val EXTRA_ATTEMPT = "attempt"
     }

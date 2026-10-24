@@ -15,15 +15,15 @@ val releaseSigning = Properties().apply {
 }
 
 android {
-    namespace = "com.soulredemption.smsrelay"
+    namespace = "com.saulredemptionservicesllc.smsrelay"
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "com.soulredemption.smsrelay"
+        applicationId = "com.saulredemptionservicesllc.smsrelay"
         minSdk = 26
         targetSdk = 36
-        versionCode = 1
-        versionName = "1.0.0"
+        versionCode = 2
+        versionName = "1.0.1"
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
 

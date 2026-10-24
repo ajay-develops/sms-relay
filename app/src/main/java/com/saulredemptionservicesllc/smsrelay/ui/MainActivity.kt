@@ -1,4 +1,4 @@
-package com.soulredemption.smsrelay.ui
+package com.saulredemptionservicesllc.smsrelay.ui
 
 import android.Manifest
 import android.content.Context
@@ -12,9 +12,9 @@ import androidx.activity.enableEdgeToEdge
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
-import com.soulredemption.smsrelay.BuildConfig
-import com.soulredemption.smsrelay.data.Store
-import com.soulredemption.smsrelay.sms.Sims
+import com.saulredemptionservicesllc.smsrelay.BuildConfig
+import com.saulredemptionservicesllc.smsrelay.data.Store
+import com.saulredemptionservicesllc.smsrelay.sms.Sims
 
 sealed interface Screen {
     data object Home : Screen

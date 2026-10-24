@@ -1,4 +1,4 @@
-package com.soulredemption.smsrelay.ui
+package com.saulredemptionservicesllc.smsrelay.ui
 
 import android.content.ActivityNotFoundException
 import android.content.Intent
@@ -60,11 +60,11 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.input.ImeAction
 import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.unit.dp
-import com.soulredemption.smsrelay.data.Contact
-import com.soulredemption.smsrelay.data.Matcher
-import com.soulredemption.smsrelay.data.Rule
-import com.soulredemption.smsrelay.data.Store
-import com.soulredemption.smsrelay.sms.Sims
+import com.saulredemptionservicesllc.smsrelay.data.Contact
+import com.saulredemptionservicesllc.smsrelay.data.Matcher
+import com.saulredemptionservicesllc.smsrelay.data.Rule
+import com.saulredemptionservicesllc.smsrelay.data.Store
+import com.saulredemptionservicesllc.smsrelay.sms.Sims
 import java.util.UUID
 
 @OptIn(ExperimentalMaterial3Api::class)

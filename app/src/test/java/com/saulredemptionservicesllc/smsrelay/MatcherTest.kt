@@ -1,8 +1,8 @@
-package com.soulredemption.smsrelay
+package com.saulredemptionservicesllc.smsrelay
 
-import com.soulredemption.smsrelay.data.Contact
-import com.soulredemption.smsrelay.data.Matcher
-import com.soulredemption.smsrelay.data.Rule
+import com.saulredemptionservicesllc.smsrelay.data.Contact
+import com.saulredemptionservicesllc.smsrelay.data.Matcher
+import com.saulredemptionservicesllc.smsrelay.data.Rule
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertFalse
 import org.junit.Assert.assertTrue

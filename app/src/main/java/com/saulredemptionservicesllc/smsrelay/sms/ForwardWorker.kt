@@ -1,4 +1,4 @@
-package com.soulredemption.smsrelay.sms
+package com.saulredemptionservicesllc.smsrelay.sms
 
 import android.content.Context
 import androidx.work.ExistingWorkPolicy
@@ -7,8 +7,8 @@ import androidx.work.WorkManager
 import androidx.work.Worker
 import androidx.work.WorkerParameters
 import androidx.work.workDataOf
-import com.soulredemption.smsrelay.data.Status
-import com.soulredemption.smsrelay.data.Store
+import com.saulredemptionservicesllc.smsrelay.data.Status
+import com.saulredemptionservicesllc.smsrelay.data.Store
 import java.util.concurrent.TimeUnit
 
 /** Re-sends a forward that failed (e.g. no signal), with increasing delays. */

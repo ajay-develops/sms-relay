@@ -1,14 +1,14 @@
-package com.soulredemption.smsrelay.sms
+package com.saulredemptionservicesllc.smsrelay.sms
 
 import android.app.PendingIntent
 import android.content.Context
 import android.content.Intent
 import android.util.Log
-import com.soulredemption.smsrelay.data.LogEntry
-import com.soulredemption.smsrelay.data.Matcher
-import com.soulredemption.smsrelay.data.Rule
-import com.soulredemption.smsrelay.data.Status
-import com.soulredemption.smsrelay.data.Store
+import com.saulredemptionservicesllc.smsrelay.data.LogEntry
+import com.saulredemptionservicesllc.smsrelay.data.Matcher
+import com.saulredemptionservicesllc.smsrelay.data.Rule
+import com.saulredemptionservicesllc.smsrelay.data.Status
+import com.saulredemptionservicesllc.smsrelay.data.Store
 import java.util.UUID
 
 object Forwarder {

@@ -1,10 +1,10 @@
-package com.soulredemption.smsrelay.ui
+package com.saulredemptionservicesllc.smsrelay.ui
 
-import com.soulredemption.smsrelay.data.Contact
-import com.soulredemption.smsrelay.data.LogEntry
-import com.soulredemption.smsrelay.data.Rule
-import com.soulredemption.smsrelay.data.Status
-import com.soulredemption.smsrelay.data.Store
+import com.saulredemptionservicesllc.smsrelay.data.Contact
+import com.saulredemptionservicesllc.smsrelay.data.LogEntry
+import com.saulredemptionservicesllc.smsrelay.data.Rule
+import com.saulredemptionservicesllc.smsrelay.data.Status
+import com.saulredemptionservicesllc.smsrelay.data.Store
 
 /** Fictional sample data (555 numbers) used only by debug builds for store screenshots. */
 object DemoData {

@@ -1,4 +1,4 @@
-package com.soulredemption.smsrelay.ui
+package com.saulredemptionservicesllc.smsrelay.ui
 
 import android.app.Activity
 import android.content.Intent

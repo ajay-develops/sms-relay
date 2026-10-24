@@ -1,2 +1,2 @@
 # WorkManager workers are instantiated by class name.
--keep class com.soulredemption.smsrelay.sms.ForwardWorker { *; }
+-keep class com.saulredemptionservicesllc.smsrelay.sms.ForwardWorker { *; }
