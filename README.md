@@ -59,4 +59,4 @@ fastlane/ Store listing text and images (used by F-Droid)
 
 ## License
 
-GPL-3.0-or-later © 2026 Soul Redemption Services LLC
+GPL-3.0-or-later © 2026 Saul Redemption Services LLC
