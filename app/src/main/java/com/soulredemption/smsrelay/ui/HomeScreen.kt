@@ -64,7 +64,10 @@ fun HomeScreen(onEdit: (String?) -> Unit) {
     val log by store.log.collectAsState()
     val simCount = remember { Sims.active(context).size }
     val power = remember { context.getSystemService(PowerManager::class.java) }
-    var batteryOk by remember { mutableStateOf(power.isIgnoringBatteryOptimizations(context.packageName)) }
+    val prefs = remember { context.getSharedPreferences("ui", android.content.Context.MODE_PRIVATE) }
+    var batteryOk by remember {
+        mutableStateOf(power.isIgnoringBatteryOptimizations(context.packageName) || prefs.getBoolean("battery_tip_dismissed", false))
+    }
     val scroll = TopAppBarDefaults.exitUntilCollapsedScrollBehavior()
 
     Scaffold(
@@ -101,7 +104,9 @@ fun HomeScreen(onEdit: (String?) -> Unit) {
                                 TextButton(colors = btn, onClick = {
                                     runCatching { context.startActivity(Intent(Settings.ACTION_IGNORE_BATTERY_OPTIMIZATION_SETTINGS)) }
                                 }) { Text("Open settings") }
-                                TextButton(colors = btn, onClick = { batteryOk = true }) { Text("Dismiss") }
+                                TextButton(colors = btn, onClick = {
+                                    prefs.edit().putBoolean("battery_tip_dismissed", true).apply(); batteryOk = true
+                                }) { Text("Dismiss") }
                             }
                         }
                     }

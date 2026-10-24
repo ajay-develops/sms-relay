@@ -1,0 +1,25 @@
+SMS Relay forwards the text messages you choose to another phone number — automatically, in the background.
+
+<b>Simple rules</b>
+• Forward from one number, several numbers, or everyone
+• Works with bank and service sender IDs like "HDFCBK"
+• Send to one or more numbers
+• Pick senders and recipients from your contacts, or type them in
+
+<b>Made for dual-SIM phones</b>
+• Only forward messages that arrive on SIM 1, SIM 2, or both
+• Choose which SIM sends the forward
+
+<b>Reliable</b>
+• Keeps working when the app is closed
+• Long messages are forwarded in full
+• Failed sends retry automatically when signal returns
+• Recent activity shows what was forwarded and whether it was delivered
+• Built-in loop protection: never forwards back to the sender, and ignores its own forwards
+
+<b>Private by design</b>
+• No internet permission, no account, no ads, no analytics
+• Your rules and activity stay on your phone
+• Free and open source (GPL-3.0)
+
+Forwarded messages are sent from your SIM as normal SMS, so your carrier's usual rates apply.

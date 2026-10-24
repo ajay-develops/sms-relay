@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SMS Relay Privacy Policy</title>
+  <link rel="icon" href="img/icon-192.png">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="wrap"><header class="top"><a class="brand" href="./"><img src="img/icon-192.png" alt="">SMS Relay</a><nav><a href="terms.html">Terms</a></nav></header></div>
+  <main class="doc">
+    <h1>Privacy Policy</h1>
+    <p class="meta">Effective 24 October 2026 · Applies to the SMS Relay Android app (package <code>com.soulredemption.smsrelay</code>)</p>
+
+    <p class="callout"><strong>In short:</strong> SMS Relay does not collect, upload, sell or share any of your data. It has no internet access. The only thing that leaves your phone is the forwarded SMS, sent by your carrier to the numbers <em>you</em> chose.</p>
+
+    <h2>Who we are</h2>
+    <p>SMS Relay is published by Soul Redemption Services LLC ("we", "us"). Contact: <a href="mailto:saulredemptionservicesllc@gmail.com">saulredemptionservicesllc@gmail.com</a>. The app's source code is public at <a href="https://github.com/ajay-develops/sms-relay">github.com/ajay-develops/sms-relay</a>, so anyone can check these statements.</p>
+
+    <h2>What the app does with your messages</h2>
+    <p>When a text message arrives, SMS Relay reads its sender, text and the SIM it arrived on, and compares them with the forwarding rules you created. If a rule matches, the app sends a copy of the message as a regular SMS, from your phone, to the recipients in that rule. Messages that don't match any rule are ignored and not stored.</p>
+
+    <h2>Data stored on your phone</h2>
+    <table>
+      <tr><th>Data</th><th>Why</th><th>Where / how long</th></tr>
+      <tr><td>Your forwarding rules (names, sender numbers or IDs, recipient numbers and contact names you picked, SIM choices)</td><td>To know what to forward and where</td><td>App-private storage on your phone until you delete the rule or uninstall</td></tr>
+      <tr><td>Recent activity: the last 200 forwards (time, sender, recipient, forwarded text, delivery status)</td><td>So you can see what was forwarded and retry failed sends</td><td>App-private storage; clear it any time with "Clear", or uninstall</td></tr>
+    </table>
+    <p>This data is excluded from Android cloud backups and is never transmitted to us or anyone else.</p>
+
+    <h2>Data we collect</h2>
+    <p>None. The app has no internet permission, no analytics, no crash reporting, no advertising and no third-party SDKs that collect data. We have no servers that receive information from the app.</p>
+
+    <h2>Sharing</h2>
+    <p>We don't share data with anyone. Forwarded messages are delivered by your mobile carrier to the recipients you chose, the same as any SMS you send yourself; your carrier's privacy policy applies to that delivery.</p>
+
+    <h2>Permissions</h2>
+    <table>
+      <tr><th>Permission</th><th>Used for</th></tr>
+      <tr><td>Receive SMS</td><td>Detecting incoming messages to check them against your rules</td></tr>
+      <tr><td>Send SMS</td><td>Sending the forwarded copy</td></tr>
+      <tr><td>Phone state</td><td>Telling SIM 1 and SIM 2 apart, and sending from the SIM you chose</td></tr>
+      <tr><td>Notifications (optional)</td><td>Alerting you if a forward fails</td></tr>
+      <tr><td>Contacts picker (no permission)</td><td>When you tap "Pick from contacts", Android shares only the single contact you choose</td></tr>
+    </table>
+
+    <h2>Your choices</h2>
+    <p>You can turn off or delete any rule, clear the activity log, revoke permissions in Android settings, or uninstall the app, which deletes all of its data.</p>
+
+    <h2>Children</h2>
+    <p>SMS Relay is not directed to children under 13 and we do not knowingly collect information from anyone.</p>
+
+    <h2>Changes</h2>
+    <p>If this policy changes, we'll update this page and the effective date above. Material changes will also be noted in the app's release notes.</p>
+
+    <h2>Contact</h2>
+    <p>Questions or requests: <a href="mailto:saulredemptionservicesllc@gmail.com">saulredemptionservicesllc@gmail.com</a>.</p>
+  </main>
+  <footer><div class="wrap"><span>© 2026 Soul Redemption Services LLC</span><span><a href="./">Home</a> · <a href="terms.html">Terms</a></span></div></footer>
+</body>
+</html>

@@ -1,0 +1,4 @@
+First release.
+• Forwarding rules by sender, with contact picker
+• SIM 1 / SIM 2 / both filters and sending SIM choice
+• Automatic retries and activity log

@@ -56,7 +56,10 @@ class MainActivity : ComponentActivity() {
         val i = intent ?: return
         if (i.getBooleanExtra("dual_sim", false)) Sims.fakeDualSim = true
         if (i.getBooleanExtra("brand_colors", false)) useDynamicColor = false
-        if (i.getBooleanExtra("demo", false)) DemoData.seed(Store.get(this))
+        if (i.getBooleanExtra("demo", false)) {
+            DemoData.seed(Store.get(this))
+            getSharedPreferences("ui", MODE_PRIVATE).edit().putBoolean("battery_tip_dismissed", true).apply()
+        }
         if (i.getBooleanExtra("skip_setup", false)) skipSetup = true
         i.getStringExtra("edit")?.let { id -> screen = Screen.Edit(id.ifBlank { null }) }
     }
